@@ -1,11 +1,8 @@
 body {
     /* background:	hsl(209, 65%, 41%); */
-    background:hsl(206, 88%, 38%);
+    background-image:url(pastels.jpg);
+    background-repeat: repeat;
     /* background:#004e97; */
-    display:flex;
-    flex-wrap:wrap;
-    padding:100px;
-    justify-content: center;
 
 }
 .logo{
@@ -13,16 +10,22 @@ body {
     padding-left:0px;
     /* border: hsl(59, 92%, 62%) solid 3px; */
 }
+article{
+    display:flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
 .trainers{
     width:40vw;
     height:65vh;
-    border-radius:50%;
-    border: hsl(59, 92%, 62%) dashed 3px;
+    border-radius:20%;
+    /* border: hsl(59, 92%, 62%) dashed 3px; */
 }
 section {
-    padding-top:15px;
-    width:30vw;
-    height:70vh;
+    background:rgba(0, 78, 151, 0.5);
+    width:60vw;
+    height:60vh;
     font-family:'Merienda One', cursive;
     color:hsl(59, 92%, 62%);
     /* border: hsl(59, 92%, 62%) solid 3px; */
