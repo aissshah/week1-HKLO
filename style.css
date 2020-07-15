@@ -1,0 +1,56 @@
+:root {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/da65c525db2f88aebc6ee1b669809a8c.jpg);
+}
+
+nav {
+    background-color: hsl(59, 92%, 62%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+li {
+    display: inline-block;
+    padding: 0.3rem;
+}
+
+img {
+    height: 10vh;
+    margin-left: 0.5rem;
+}
+
+.active {
+    color: hsl(59, 92%, 62%);
+}
+
+
+.nav-links {
+    list-style-type: none;
+    margin-right: 0.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-links li{
+
+}
+
+a:hover {
+    color: hsl(59, 92%, 62%);
+    cursor: pointer;
+  }
