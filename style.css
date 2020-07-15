@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(images/da65c525db2f88aebc6ee1b669809a8c.jpg);
+}
+
 nav {
-    background-color: hsl(205, 100%, 40%);
+    background-color: hsl(59, 92%, 62%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,13 +31,14 @@ img {
     margin-left: 0.5rem;
 }
 
-.active, li:hover {
-    background-color: hsl(0, 0%, 12%);
-  }
+.active {
+    color: hsl(59, 92%, 62%);
+}
+
 
 .nav-links {
     list-style-type: none;
-    margin-right: 0.
+    margin-right: 0.5rem;
 }
 
 .nav-links a {
@@ -44,3 +49,8 @@ img {
 .nav-links li{
 
 }
+
+a:hover {
+    color: hsl(59, 92%, 62%);
+    cursor: pointer;
+  }
