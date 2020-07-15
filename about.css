@@ -1,6 +1,31 @@
 body {
     background:hsl(206, 88%, 38%);
+display:flex;
+grid-template-columns:repeat(2, 100px);
+justify-content: center;
+padding-top:100px;
 }
 .logo{
-    width:60%;
+    /* display:flex;
+    justify-content:center; */
+    width:10vw;
+    /* border: hsl(59, 92%, 62%) solid 3px; */
+}
+.trainers{
+    width:30vw;
+    height:70vh;
+    border-radius:10px;
+}
+section {
+    width:30vw;
+    height:70vh;
+    font-family:'Fredoka One', cursive;
+    color:hsl(59, 92%, 62%);
+    /* border: hsl(59, 92%, 62%) solid 3px; */
+    border-radius:10px;
+}
+@media all and (max-width:350){
+    .logo{
+        width:100vw;
+    }
 }
