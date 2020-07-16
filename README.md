@@ -1,6 +1,6 @@
 # week1-HKLO
 
-View this website live :arrow_lower_right: https://fac20.github.io/week1-HKLO/
+View this website live :arrow_upper_right: https://fac20.github.io/week1-HKLO/
 
 **The Project**:construction_worker:
 
