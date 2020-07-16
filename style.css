@@ -183,6 +183,16 @@ a:visited {
          font-size:1.2em;
          color: var(--main-text);
          border: var(--main-text) solid 1px;
+         width:45vw;
+         
+    }
+   
+ }
+ @media all and (min-width:1150px){
+    input, textarea, select, fieldset, label{
+         font-size:1.2em;
+         color: var(--main-text);
+         border: var(--main-text) solid 1px;
          width:25vw;
          
     }
