@@ -1,5 +1,7 @@
 # week1-HKLO
 
+View this website live :arrow_lower_right: https://fac20.github.io/week1-HKLO/
+
 **The Project**:construction_worker:
 
 This is our project from week :one: of the Founders and Coders programming bootcamp. The guidelines were to build an agency website containing a navbar, a form and an 'about us' page. 
