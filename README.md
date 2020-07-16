@@ -1,9 +1,11 @@
 # week1-HKLO
 
-*The Project*
+**The Project**
 
-*The Team* 
+This is our project from week 1 of the Founders and Coders programming bootcamp. The guidelines were to build an agency website containing a navbar, a form and an 'about us' page. 
 
-*Known issues / work in progress *
+**The Team**:two_women_holding_hands::couple:
 
-*Coming soon*
+**Known issues / work in progress**
+
+**Coming soon** :thought_balloon:
