@@ -26,7 +26,7 @@ li {
     padding: 0.3rem;
 }
 
-img {
+nav img {
     height: 10vh;
     margin-left: 0.5rem;
 }
@@ -54,3 +54,34 @@ a:hover {
     color: hsl(59, 92%, 62%);
     cursor: pointer;
   }
+
+  /* piperz html styling */
+
+  header {
+      margin-top: 100px;
+      text-align: center;
+  }
+
+  .profilePictures {
+      /* border-radius: 20%; -secod option */
+      border-radius: 50%; 
+      width: 25vw;
+      display: block;
+      margin: auto;
+  }
+
+  .pimperzNames {
+      font-weight: 800;
+  }
+
+ .pimperZArticleContainer {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ 
+ main {
+     width: 80vw;
+     margin: auto;
+ }
+
