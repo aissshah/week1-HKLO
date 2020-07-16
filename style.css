@@ -35,7 +35,7 @@ h1 {
 }
 
 p, h2 {
-  color: var(--secondary-text);
+  color: var(--main-text);
   font-family: var(--secondary-font);
 }
 
@@ -54,7 +54,7 @@ nav {
     height: 12vh;
 }
 
-li {
+nav li {
     display: inline-block;
     padding: 0.3rem;
 }
@@ -90,7 +90,69 @@ a:visited {
 }
 
 
+/* about page styling */
+.aboutUsHeader {
+    font-weight: 750;
+    margin-top: 100px;
+}
 
+.aboutUs p {
+    margin: 0 15px;
+    text-align: justify;
+    display: inline-block;
+    text-indent: 15%;
+}
+
+.aboutImage {
+    border-radius: 5%;
+    max-width: 80%;
+    margin: 15px auto;
+}
+
+
+
+.ourServiceList li {
+    color: var(--main-text);
+    font-weight: 600;
+    list-style-image: url("images/pokemon.png");
+}
+
+
+@media only screen and (min-width: 700px) {
+    .aboutImage {
+        width: 30%;
+    }
+
+    .floatLeft {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .floatRight {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .floatLeft .aboutImage {
+        transform: rotate(10deg);
+    }
+    
+    .floatRight .aboutImage {
+        transform: rotate(-10deg);
+    }
+
+    .floatLeft, .floatRight {
+        margin-top: 100px;
+    }
+
+    .aboutUsHeader {
+        margin-top: 50px;
+    }
+
+    .text {
+        width: 45%;
+    }
+}
   /* piperz html styling */
 /* 
   header {
