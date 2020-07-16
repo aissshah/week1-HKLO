@@ -19,9 +19,6 @@ main {
 } 
 
 .background {
-    /* margin-top: 20vh; */
-    width: 100vw;
-    height: 500vh;
     background: url(images/frame.jpg) no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -44,7 +41,7 @@ p, h2 {
 nav {
     background-color: rgba(22, 22, 22,0.5);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0.3rem;
     width: 100vw;
@@ -52,6 +49,7 @@ nav {
     top: 0;
     position: fixed;
     height: 12vh;
+    z-index: 1;
 }
 
 nav li {
@@ -209,7 +207,8 @@ a:visited {
     height: 80vh;
     border: 5px;
     border-color: red;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
  @media only screen and (min-width: 700px) {
