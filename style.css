@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(images/da65c525db2f88aebc6ee1b669809a8c.jpg);
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
 }
 
 nav {
@@ -19,6 +19,7 @@ nav {
     left: 0;
     top: 0;
     position: fixed;
+
 }
 
 li {
@@ -85,3 +86,20 @@ a:hover {
      margin: auto;
  }
 
+  .form{
+   /* border:solid black 5px; */
+      padding:10vh;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      
+    
+  }
+
+  label, input, select{
+      display:block;
+     /* margin:1rem; */
+  }
+  section{
+      margin:15vh;
+  }
