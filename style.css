@@ -47,10 +47,6 @@ nav img {
     text-align: center;
 }
 
-.nav-links li{
-
-}
-
 a:hover {
     color: hsl(59, 92%, 62%);
     cursor: pointer;
@@ -100,6 +96,5 @@ a:hover {
       display:block;
      /* margin:1rem; */
   }
-  section{
-      margin:15vh;
-  }
+
+  
