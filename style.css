@@ -139,6 +139,13 @@ a:visited {
     padding-bottom: 2rem;
 }
 
+.main-pimperz {
+    height: 80vh;
+    border: 5px;
+    border-color: red;
+    overflow: scroll;
+}
+
  @media only screen and (min-width: 700px) {
     .pimperZArticleContainer p {
         max-width: 30vw;
@@ -181,6 +188,10 @@ a:visited {
     margin:1em;
     font-family: courier, cursive;
   
+   }
+
+   .none{
+       display: none;
    }
    
   
