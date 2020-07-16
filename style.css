@@ -67,7 +67,7 @@ a:hover {
 
   label, input, select{
       display:block;
-     margin:1rem;
+     /* margin:1rem; */
   }
   section{
       margin:15vh;
