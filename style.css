@@ -124,14 +124,44 @@ a:visited {
        padding:10vh;
        display:flex;
        flex-direction:column;
-       align-items:center;  
+       align-items:center; 
+       
+        
    }
- 
-  label, input, select{
-      display:block;
-      color: var(--main-text);
-     /* margin:1rem; */
-  }
+   input, textarea, select, label{
+       background:rgb(22, 22, 22);
+       color: var(--main-text);
+       border: var(--main-text) solid 1px;
+       border-radius:10px;
+       display:block;
+       margin:1em;
+       font-family: courier, cursive;
+       width:70vw;
+       
+   }
+   fieldset{
+    background:rgb(22, 22, 22);
+    color: var(--main-text);
+    border: black;
+    border-radius:10px;
+    display:block;
+    margin:1em;
+    font-family: courier, cursive;
+  
+   }
+   
+  
+ @media all and (min-width:400px){
+    input, textarea, select, fieldset, label{
+         font-size:1.2em;
+         color: var(--main-text);
+         border: var(--main-text) solid 1px;
+         width:25vw;
+         
+    }
+   
+ }
+
 
 
 
