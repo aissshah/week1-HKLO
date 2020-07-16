@@ -19,6 +19,7 @@ nav {
     left: 0;
     top: 0;
     position: fixed;
+
 }
 
 li {
@@ -53,4 +54,21 @@ img {
 a:hover {
     color: hsl(59, 92%, 62%);
     cursor: pointer;
+  }
+  .form{
+   /* border:solid black 5px; */
+      padding:10vh;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      
+    
+  }
+
+  label, input, select{
+      display:block;
+     /* margin:1rem; */
+  }
+  section{
+      margin:15vh;
   }
