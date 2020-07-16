@@ -19,5 +19,8 @@ _Aishah_.
 _Amber_  
 
 **Known issues**:exclamation:
+- Page sizing isn't quite right, possibly due to background image
+- On certain page sizes, navigation links are too far to the right and are only partially visible
 
 **Coming soon** :thought_balloon:
+- Hide overflow on pimpz page
