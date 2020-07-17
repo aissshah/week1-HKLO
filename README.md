@@ -23,5 +23,7 @@ _Amber_
 - On certain page sizes, navigation links are too far to the right and are only partially visible
 - Images take quite a while to load
 
-**Coming soon** :thought_balloon:
+**Coming soon/ To do list** :thought_balloon:
 - Hide overflow on pimpz page
+- Add form label 'select the service you require' above dropdown input
+
