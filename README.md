@@ -28,5 +28,4 @@ _Amber_
 
 **Coming soon/ To do list** :thought_balloon:
 - Hide overflow on pimpz page
-- Add form label 'select the service you require' above dropdown input
 
