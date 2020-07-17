@@ -27,12 +27,13 @@ main {
     background-size: cover;
 }
 
-h1 {
+h1, h4 {
     color: var(--main-text);
     font-family: var(--main-font);
+    font-size: 20px;
 }
 
-p, h2 {
+p, h2, h3{
   color: var(--main-text);
   font-family: var(--secondary-font);
 }
@@ -256,9 +257,15 @@ a:visited {
   
    }
 
-   .none{
-       display: none;
-   }
+   .none:not(:focus):not(:active) {
+        clip: rect(0 0 0 0); 
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap; 
+        width: 1px;
+      }
    
   
  @media all and (min-width:400px){
