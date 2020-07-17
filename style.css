@@ -86,7 +86,6 @@ a:visited {
     color: hsl(59, 92%, 62%);
 }
 
-
 /* about page styling */
 .aboutUsHeader {
     font-weight: 750;
@@ -104,11 +103,8 @@ a:visited {
     border-radius: 5%;
     max-width: 80%;
     margin: 15px auto;
-    height: auto;
-    /* max-height: 80%; */
+    height: auto
 }
-
-
 
 .ourServiceList li {
     color: var(--main-text);
@@ -119,8 +115,10 @@ a:visited {
 
 @media only screen and (min-width: 700px) {
     .aboutImage {
-        max-width: 30%;
-        height: auto;
+        width: 45%;
+        height: 45%;
+        max-width: 40vw;
+        max-height: 40vh;
     }
 
     .floatLeft {
